@@ -8,10 +8,10 @@ function calculo(){
         resultElement.innerText= "por favor, ingresa valores validos.";
         return;
     } else if(age>=18){
-        resultElement.innerText= "por favor, ingresa valores validos.";
+        resultElement.innerText= `Hola ${name}, eres mayor de edad.`;
         return;
     }else{
-        resultElement.innerText= "por favor, ingresa valores validos.";
+        resultElement.innerText= `Hola ${name}, eres menor de edad.`;
         return;
     }
     }
