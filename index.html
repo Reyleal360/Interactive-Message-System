@@ -14,6 +14,7 @@
         <meta name="robots" content="index,follow">
         <meta name="googlebot" content="index,follow">
         <meta name="revisit-after" content="15days">
+        <link rel="stylesheet" href="./src/css/styless.css">
         <title>Interactive Message System</title>
     </head>
 <body>
@@ -22,18 +23,22 @@
 
 
     <main>
-        <section>
+
+        <section class="container">
+            <center><h1>Apps to verify the user's age            </h1></center>
+            <br>
             <form>
-                <label for="name">Enter your name :</label>
-                <input type="text" id="name" placeholder="name" maxlength="30"  required>
+                <center><label for="name">Name:</label> </center>
+                <input type="text" id="name" placeholder="Enter your name :" maxlength="30"  required>
+                <br>
+                <center><label for="name">Age:</label> </center>
+                <input type="text" id="age" placeholder="Enter your age:" maxlength="30"  required>
                 <br>
                 <br>
-                <label for="age">Enter your age :</label>
-                <input type="text" id="age" placeholder="name" maxlength="30"  required>
-                <br>
-                <button id="verific" type="button" onclick="calculo()">Verificar</button>
-                <br>
-                <p>Result: <span id="result"></span></p>
+                <center>                <button id="verific" type="button" onclick="calculo()">Verificar</button> </center>
+                <section class="containerResult">
+                <p><span id="result"></span></p>
+                 </section>
             </form>
         </section>
     </main>

@@ -4,14 +4,14 @@ function calculo(){
     let age  = parseInt(document.getElementById("age").value);
     let resultElement = document.getElementById("result");
 
-    if( age <= 0 ){
-        resultElement.innerText= "por favor, ingresa valores validos.";
+    if( age <= 0 || isNaN(age) || !name ){
+        resultElement.innerText= "Please enter valid values.";
         return;
     } else if(age>=18){
-        resultElement.innerText= `Hola ${name}, eres mayor de edad.`;
+        resultElement.innerText= `Hello ${name},you are of legal age.`;
         return;
     }else{
-        resultElement.innerText= `Hola ${name}, eres menor de edad.`;
+        resultElement.innerText= `Hello ${name}, you are not of legal age.`;
         return;
     }
     }
