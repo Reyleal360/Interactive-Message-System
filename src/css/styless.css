@@ -6,7 +6,7 @@
    
 
 header{
-    background-color: antiquewhite;
+    background-color: rgb(119, 125, 177);
 }
 .container{
     background-color: rgb(187, 255, 255);
@@ -30,7 +30,8 @@ input{
 
 }
 main{
-    background-color: rgb(101, 101, 194);
+    padding: 5%;
+    background: linear-gradient(blue, pink);
 }
 footer{
     background-color: aquamarine;
