@@ -8,10 +8,10 @@ function calculo(){
         resultElement.innerText= "Please enter valid values.";
         return;
     } else if(age>=18){
-        resultElement.innerText= `Hello ${name},you are of legal age.`;
+        resultElement.innerText= `Hi ${name}, you're of legal age. Get ready for great opportunities in the world of programming!`;
         return;
     }else{
-        resultElement.innerText= `Hello ${name}, you are not of legal age.`;
+        resultElement.innerText= `Hi ${name}, you're a minor. Keep learning and enjoying coding!`;
         return;
     }
     }

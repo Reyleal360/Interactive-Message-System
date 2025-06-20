@@ -23,7 +23,7 @@ h1{
     top: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
-    background: rgba(255, 255, 255, 0.26);
+    background: rgba(255, 255, 255, 0.614);
     padding: 30px 15px;
 }
 .title{
@@ -35,7 +35,6 @@ h1{
     display: block;
 }
 .container input[type="text"], .container input[type="number"]{
-    width: 60%;
     margin-bottom: 15px;
     background: transparent;
     border: none;
@@ -62,7 +61,7 @@ button{
     cursor: pointer;
   }
   .container input[type="text"].focus, .container input[type="number"]:focus{
-    width: 70%;
+    width: 100%;
     font-size: 16px;
   }
  
@@ -71,7 +70,8 @@ input{
     height: 20%;
 }
 .containerResult{
-    background-color: rgb(137, 231, 231);
+    background-color: rgb(255, 106, 95);
+    border-radius: 50px;
 }
 #name{
     text-align: center;
@@ -103,6 +103,6 @@ button:hover {
 }
 
 footer{
-    background-color: rgb(66, 73, 104);
+    background-color: rgb(215, 37, 100);
     text-align: center;
     }
