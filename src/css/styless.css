@@ -7,7 +7,7 @@
   body {
     font-family: "Concert One", sans-serif;
   }
-  
+  /* styles for the form */
   main {
     padding: 5%;
     background-image: url(/src/img/palm-tree-desktop-mzr97rr5au5ggsn2.webp);
@@ -82,7 +82,8 @@
     margin-top: 15px;
     text-align: center;
   }
-  
+  /* footer styles */
+
   footer {
     background-color: rgb(215, 37, 100);
     text-align: center;

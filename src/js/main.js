@@ -1,4 +1,6 @@
 function calculo() {
+    // part where the data is stored in the variable
+
     let name = document.getElementById("name").value;
     let ageValue = document.getElementById("age").value;
     let age = parseInt(ageValue);
