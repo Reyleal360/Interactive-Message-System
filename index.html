@@ -14,26 +14,30 @@
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
     <meta name="revisit-after" content="15days" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/styless.css" />
     <title>Interactive Message System</title>
   </head>
 
   <body>
 
-    <header>
-      <h1>Interactive Message System</h1>
-    </header>
+    
 
     <main>
       <section class="container">
+        <div class="title">
         <h1>Apps to verify the user's age</h1>
         <br/>
+      </div>
         <form>
-          <label for="name"><h1>Name :</h1></label>
-          <input type="text" id="name" placeholder="Enter your name :" maxlength="30" required/>
+
+          <label for="name"><h1>Name </h1></label>
+          <input type="text" id="name"  maxlength="30" required/>
           <br />
-          <label for="Age"><h1>Age:</h1></label>
-          <input type="number" id="age" placeholder="Enter your age:" maxlength="30" required/>
+          <label for="Age"><h1>Age</h1></label>
+          <input type="number" id="age" maxlength="30" required/>
           <br/>
           <br/>
           <center>
@@ -41,11 +45,11 @@
               Verificar
             </button>
           </center>
-          <section class="containerResult">
+          <div class="containerResult">
             <center>
               <p><span id="result"></span></p>
             </center>
-          </section>
+          </div>
         </form>
       </section>
     </main>

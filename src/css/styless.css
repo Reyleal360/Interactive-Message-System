@@ -1,10 +1,13 @@
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-   
-
+body{
+    font-family: "Concert One", sans-serif;
+}
 header{
     background-color: rgb(119, 125, 177);
 }
@@ -13,13 +16,56 @@ h1{
     text-align: center;
 }
 .container{
-    background-color: rgb(241, 255, 255);
-    padding: 6%;
-    display: grid;
-    margin: 10%;
-    box-shadow: 10px 10px 10px rgb(222, 198, 247);
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.26);
     border-radius: 10%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background: rgba(255, 255, 255, 0.26);
+    padding: 30px 15px;
 }
+.title{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.container label{
+    font-size: 20px;
+    display: block;
+}
+.container input[type="text"], .container input[type="number"]{
+    width: 60%;
+    margin-bottom: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid ;
+    outline: none;
+    font-size: 16px;
+    
+
+}
+
+button{
+    width: 40%;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    font-family: "Concert One", sans-serif;
+    border: none;
+    background: rgb(206, 85, 117);
+    border-radius: 50px;
+    transition: 0.5;
+  }
+  button:hover{
+    width: 50%;
+    cursor: pointer;
+  }
+  .container input[type="text"].focus, .container input[type="number"]:focus{
+    width: 70%;
+    font-size: 16px;
+  }
+ 
 input{
     width: 100%;
     height: 20%;
@@ -36,21 +82,20 @@ input{
 }
 main{
     padding: 5%;
-    background: linear-gradient(rgb(15, 15, 95), rgb(0, 0, 0));
+    background-image: url(/src/img/palm-tree-desktop-mzr97rr5au5ggsn2.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-button{
-    background-color: rgb(200, 200, 255); /* Color de fondo */
-    color: rgb(0, 0, 0); /* Color del texto */
-    padding: 10px 20px; /* Espaciado interno */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; 
-    margin: 2%;
-  }
+
 button:hover {
-    background-color: rgb(164, 164, 238); /* Cambia el color al pasar el ratón */
+    background-color: rgb(164, 164, 238); 
     transition: 1s;
 }
 #containerResult{
