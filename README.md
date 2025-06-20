@@ -15,11 +15,6 @@ Its main purpose is to verify the user's age and return a personalized message b
 
 ---
 
-## 📸 Preview
-
-![App Screenshot](Captura%20desde%202025-06-20%2017-48-22.webp) <!-- Optional: Replace with actual screenshot path -->
-
----
 
 ## 📁 Project Structure
 
