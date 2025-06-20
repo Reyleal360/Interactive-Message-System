@@ -8,12 +8,17 @@
 header{
     background-color: rgb(119, 125, 177);
 }
+
+h1{
+    text-align: center;
+}
 .container{
-    background-color: rgb(187, 255, 255);
-    padding: 4%;
+    background-color: rgb(241, 255, 255);
+    padding: 6%;
     display: grid;
     margin: 10%;
-    box-shadow: 10px 10px 10px rgb(71, 65, 77);
+    box-shadow: 10px 10px 10px rgb(222, 198, 247);
+    border-radius: 10%;
 }
 input{
     width: 100%;
@@ -31,14 +36,28 @@ input{
 }
 main{
     padding: 5%;
-    background: linear-gradient(blue, pink);
+    background: linear-gradient(rgb(15, 15, 95), rgb(0, 0, 0));
 }
-footer{
-    background-color: aquamarine;
-}
-h1{
-    text-align: center;
-}
+
+
 button{
-    width: 100px;
+    background-color: rgb(200, 200, 255); /* Color de fondo */
+    color: rgb(0, 0, 0); /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; 
+    margin: 2%;
+  }
+button:hover {
+    background-color: rgb(164, 164, 238); /* Cambia el color al pasar el ratón */
+    transition: 1s;
 }
+#containerResult{
+    padding: 20%;
+}
+
+footer{
+    background-color: rgb(66, 73, 104);
+    text-align: center;
+    }
