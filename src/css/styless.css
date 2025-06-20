@@ -10,7 +10,7 @@
   /* styles for the form */
   main {
     padding: 5%;
-    background-image: url(/src/img/palm-tree-desktop-mzr97rr5au5ggsn2.webp);
+    background: linear-gradient(to right, rgb(228, 28, 98), rgb(235, 56, 12)); /* Degradado de rojo a amarillo de izquierda a derecha */
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
