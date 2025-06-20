@@ -20,7 +20,7 @@ input{
     height: 20%;
 }
 .containerResult{
-    background-color: beige;
+    background-color: rgb(137, 231, 231);
 }
 #name{
     text-align: center;
@@ -35,4 +35,10 @@ main{
 }
 footer{
     background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 100px;
 }
