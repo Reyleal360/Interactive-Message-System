@@ -16,7 +16,7 @@ Its main purpose is to verify the user's age and return a personalized message b
 ---
 ## 📸 Preview
 
-![App Screenshot](./src/img/Captura%20desde%202025-06-20%2017-48-22.webp) <!-- Optional: Replace with actual screenshot path -->
+![App Screenshot](./src/img/Captura%20desde%202025-06-20%2018-13-31.webp) 
 
 
 ## 📁 Project Structure
@@ -83,5 +83,8 @@ The app uses media queries and flexible units (%, max-width, etc.) to adapt perf
 Reinaldo Andrés Leal Brochero
 GitHub Profile
 📝 License
+
+link perfil:https://github.com/Reyleal360/Interactive-Message-System
+
 
 This project is under the MIT License. Feel free to use, modify, and share.
